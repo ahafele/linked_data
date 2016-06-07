@@ -10,8 +10,12 @@ describe 'a PerformanceGroup' do
   	foo = PerformanceGroup.new
   	foo.name = 'The Beatles'
   	expect(foo.name).to eq 'The Beatles'
-
   	puts foo.name 
+  end
+  it 'has a list of albums' do
+  	foo = PerformanceGroup.new
+  	albums = ["Hard Days Night", "White Alumb", "I don't know"]
+  	foo.albums = albums #sets array
   end
 
 end
