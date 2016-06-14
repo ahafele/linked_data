@@ -26,5 +26,5 @@ solutions = sp_end.query(q)
 #puts solutions.class.public_methods.include? :each_solution
 ##gives info about what methods in a class
 solutions.each_solution do |solution|
-   puts solution.title.to_s + " " + solution.release_date.to_s
+   #puts solution.title.to_s + " " + solution.release_date.to_s
 end
